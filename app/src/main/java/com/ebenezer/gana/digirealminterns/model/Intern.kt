@@ -1,4 +1,4 @@
-package com.ebenezer.gana.digirealminterns.data
+package com.ebenezer.gana.digirealminterns.model
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

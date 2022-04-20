@@ -13,6 +13,7 @@ import com.ebenezer.gana.digirealminterns.InternViewModel
 import com.ebenezer.gana.digirealminterns.InternViewModelFactory
 import com.ebenezer.gana.digirealminterns.R
 import com.ebenezer.gana.digirealminterns.databinding.FragmentInternsListBinding
+import com.ebenezer.gana.digirealminterns.ui.adapter.InternListAdapter
 
 
 class InternsListFragment : Fragment() {

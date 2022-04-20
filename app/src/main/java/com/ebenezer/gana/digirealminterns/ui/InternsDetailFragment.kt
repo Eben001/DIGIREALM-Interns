@@ -12,7 +12,7 @@ import com.ebenezer.gana.digirealminterns.InternApplication
 import com.ebenezer.gana.digirealminterns.InternViewModel
 import com.ebenezer.gana.digirealminterns.InternViewModelFactory
 import com.ebenezer.gana.digirealminterns.R
-import com.ebenezer.gana.digirealminterns.data.Intern
+import com.ebenezer.gana.digirealminterns.model.Intern
 import com.ebenezer.gana.digirealminterns.databinding.FragmentInternsDetailBinding
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 

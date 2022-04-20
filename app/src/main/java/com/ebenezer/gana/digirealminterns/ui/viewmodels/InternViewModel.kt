@@ -1,7 +1,7 @@
 package com.ebenezer.gana.digirealminterns
 
 import androidx.lifecycle.*
-import com.ebenezer.gana.digirealminterns.data.Intern
+import com.ebenezer.gana.digirealminterns.model.Intern
 import com.ebenezer.gana.digirealminterns.data.InternsDao
 import kotlinx.coroutines.launch
 
@@ -45,7 +45,7 @@ class InternViewModel(private val internsDao: InternsDao) : ViewModel() {
         internId: Int,
         internName: String,
         internSkills: String
-    ):Intern{
+    ): Intern {
         return Intern(id = internId,
         internName = internName,
         internAcquiredSkills = internSkills)

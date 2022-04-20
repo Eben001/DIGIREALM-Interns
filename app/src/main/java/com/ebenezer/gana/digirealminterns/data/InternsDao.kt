@@ -1,6 +1,7 @@
 package com.ebenezer.gana.digirealminterns.data
 
 import androidx.room.*
+import com.ebenezer.gana.digirealminterns.model.Intern
 import kotlinx.coroutines.flow.Flow
 
 @Dao

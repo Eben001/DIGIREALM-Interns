@@ -1,11 +1,11 @@
-package com.ebenezer.gana.digirealminterns.ui
+package com.ebenezer.gana.digirealminterns.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.ebenezer.gana.digirealminterns.data.Intern
+import com.ebenezer.gana.digirealminterns.model.Intern
 import com.ebenezer.gana.digirealminterns.databinding.InternListItemBinding
 
 class InternListAdapter(private val onItemClicked: (Intern) -> Unit) :
