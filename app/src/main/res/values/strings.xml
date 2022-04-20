@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">DIGIREALM Interns</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="name">Name:</string>
+    <string name="skills_acquired">Skills Acquired:</string>
+    <string name="add_new_intern">Add new intern</string>
+    <string name="title_name">Name</string>
+    <string name="title_skills_acquired">Skills Acquired</string>
+    <string name="intern_details">Intern Details</string>
+    <string name="edit_intern">Edit Intern</string>
+    <string name="delete">Delete</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="intern_name_req">Name <font color='#FF0000'>*</font></string>
+    <string name="skills_req">Skills Acquired <font color='#FF0000'>*</font></string>
+    <string name="save_action">Save</string>
+
+    <string name="delete_question">Are you sure you want to delete?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+
+</resources>

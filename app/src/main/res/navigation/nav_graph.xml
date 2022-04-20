@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/internsListFragment">
+
+    <fragment
+        android:id="@+id/internsListFragment"
+        android:name="com.ebenezer.gana.digirealminterns.ui.InternsListFragment"
+        android:label="Interns"
+        tools:layout="@layout/fragment_interns_list">
+        <action
+            android:id="@+id/action_internsListFragment_to_internsDetailFragment"
+            app:destination="@id/internsDetailFragment" />
+        <action
+            android:id="@+id/action_internsListFragment_to_addIntern"
+            app:destination="@id/addInternFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/internsDetailFragment"
+        android:name="com.ebenezer.gana.digirealminterns.ui.InternsDetailFragment"
+        android:label="@string/intern_details"
+        tools:layout="@layout/fragment_interns_detail">
+        <argument
+            android:name="intern_id"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_internsDetailFragment_to_addInternFragment"
+            app:destination="@id/addInternFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addInternFragment"
+        android:name="com.ebenezer.gana.digirealminterns.ui.AddInternFragment"
+        android:label="{title}"
+        tools:layout="@layout/fragment_add_intern">
+        <argument
+            android:name="title"
+            app:argType="string" />
+        <argument
+            android:name="intern_id"
+            app:argType="integer"
+            android:defaultValue="-1" />
+        <action
+            android:id="@+id/action_addInternFragment_to_internsListFragment"
+            app:destination="@id/internsListFragment"
+            app:popUpTo="@id/internsListFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
