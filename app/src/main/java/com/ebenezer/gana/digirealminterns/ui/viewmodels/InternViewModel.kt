@@ -2,7 +2,7 @@ package com.ebenezer.gana.digirealminterns
 
 import androidx.lifecycle.*
 import com.ebenezer.gana.digirealminterns.model.Intern
-import com.ebenezer.gana.digirealminterns.data.InternsDao
+import com.ebenezer.gana.digirealminterns.database.dao.InternsDao
 import kotlinx.coroutines.launch
 
 class InternViewModel(private val internsDao: InternsDao) : ViewModel() {

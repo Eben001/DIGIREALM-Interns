@@ -1,9 +1,10 @@
-package com.ebenezer.gana.digirealminterns.data
+package com.ebenezer.gana.digirealminterns.database
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import com.ebenezer.gana.digirealminterns.database.dao.InternsDao
 import com.ebenezer.gana.digirealminterns.model.Intern
 
 @Database(

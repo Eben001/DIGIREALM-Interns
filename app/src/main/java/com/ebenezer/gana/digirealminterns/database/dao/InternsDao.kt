@@ -1,4 +1,4 @@
-package com.ebenezer.gana.digirealminterns.data
+package com.ebenezer.gana.digirealminterns.database.dao
 
 import androidx.room.*
 import com.ebenezer.gana.digirealminterns.model.Intern
